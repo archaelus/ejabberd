@@ -1,0 +1,8 @@
+ebin/*.beam
+*~
+*#*#*
+*.#*
+c_src/*.o
+priv/lib/
+src/ELDAP*
+src/XmppAddr*

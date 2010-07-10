@@ -52,7 +52,7 @@
 -include_lib("exmpp/include/exmpp.hrl").
 
 -include("ejabberd.hrl").
--include("eldap/eldap.hrl").
+-include("eldap.hrl").
 
 -define(PROCNAME, ejabberd_mod_vcard_ldap).
 

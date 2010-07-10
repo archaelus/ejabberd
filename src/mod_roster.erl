@@ -59,8 +59,8 @@
 
 -include("ejabberd.hrl").
 -include("mod_roster.hrl").
--include("web/ejabberd_http.hrl").
--include("web/ejabberd_web_admin.hrl").
+-include("ejabberd_http.hrl").
+-include("ejabberd_web_admin.hrl").
 
 %% @type rosteritem() = {roster, USJ, US, Contact_JID, Name, Subscription, Ask, Groups, Askmessage, Xs}
 %%     USJ = {LUser, LServer, Prepd_Contact_JID}

@@ -42,7 +42,7 @@
 
 -include("jlib.hrl").
 -include("ejabberd.hrl").
--include("web/ejabberd_http.hrl").
+-include("ejabberd_http.hrl").
 
 -define(VFIELD(Type, Var, Value),
   #xmlel{name = 'field',

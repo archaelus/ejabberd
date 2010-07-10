@@ -58,8 +58,8 @@
 
 -include("ejabberd.hrl").
 -include("mod_roster.hrl").
--include("web/ejabberd_http.hrl").
--include("web/ejabberd_web_admin.hrl").
+-include("ejabberd_http.hrl").
+-include("ejabberd_web_admin.hrl").
 
 start(Host, Opts) ->
     HostB = list_to_binary(Host),
