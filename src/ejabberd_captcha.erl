@@ -40,7 +40,6 @@
 
 -include_lib("exmpp/include/exmpp.hrl").
 
--include("jlib.hrl").
 -include("ejabberd.hrl").
 -include("ejabberd_http.hrl").
 

@@ -42,7 +42,6 @@
 	 process_request/2]).
 
 -include("ejabberd.hrl").
--include("jlib.hrl").
 -include("ejabberd_http.hrl").
 -include("http_bind.hrl").
 -include_lib("exmpp/include/exmpp.hrl").

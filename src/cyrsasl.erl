@@ -88,30 +88,6 @@ register_mechanism(Mechanism, Module, RequirePlainPassword) ->
 			       module = Module,
 			       require_plain_password = RequirePlainPassword}).
 
-% TODO use callbacks
-%-include("ejabberd.hrl").
-%-include("jlib.hrl").
-%check_authzid(_State, Props) ->
-%    AuthzId = xml:get_attr_s(authzid, Props),
-%    case jlib:string_to_jid(AuthzId) of
-%	error ->
-%	    {error, "invalid-authzid"};
-%	JID ->
-%	    LUser = jlib:nodeprep(xml:get_attr_s(username, Props)),
-%	    {U, S, R} = jlib:jid_tolower(JID),
-%	    case R of
-%		"" ->
-%		    {error, "invalid-authzid"};
-%		_ ->
-%		    case {LUser, ?MYNAME} of
-%			{U, S} ->
-%			    ok;
-%			_ ->
-%			    {error, "invalid-authzid"}
-%		    end
-%	    end
-%    end.
-
 %% @spec (State, Props) -> ok | {error, 'not-authorized'}
 %%     State = saslstate()
 %%     Props = [{Key, Value}]

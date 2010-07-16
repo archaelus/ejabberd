@@ -47,7 +47,6 @@
 -export([reopen_log/1]).
 
 -include("ejabberd.hrl").
--include("jlib.hrl").
 -include_lib("kernel/include/file.hrl").
 
 %%-include("ejabberd_http.hrl").

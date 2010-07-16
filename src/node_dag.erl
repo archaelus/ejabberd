@@ -19,7 +19,6 @@
 -author('bjc@kublai.com').
 
 -include("pubsub.hrl").
--include("jlib.hrl").
 
 -behaviour(gen_pubsub_node).
 

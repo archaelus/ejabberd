@@ -52,7 +52,6 @@
 -include_lib("exmpp/include/exmpp.hrl").
 
 -include("ejabberd.hrl").
--include("jlib.hrl").
 
 %% Copied from mod_muc_room.erl
 -define(ERR(Packet,Type, Lang, ErrText),
