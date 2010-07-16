@@ -6,3 +6,4 @@ c_src/*.o
 priv/lib/
 src/ELDAP*
 src/XmppAddr*
+src/eldap_filter_yecc.erl
